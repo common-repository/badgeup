@@ -1,0 +1,38 @@
+{
+	"name": "badgeup/badgeup-for-wordpress",
+	"description": "Official BadgeUp WordPress Plugin",
+	"keywords": ["badgeup", "achievements", "wordpress", "wordpress-plugin"],
+	"homepage": "https://www.badgeup.io/",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mark Herhold",
+			"email": "mark@badgeup.io"
+		},
+		{
+			"name": "Shramee Srivastav",
+			"email": "shramee.srivastav@gmail.com"
+		}
+	],
+	"support": {
+		"email": "support@badgeup.io",
+		"issues": "https://github.com/badgeup/badgeup-wordpress-plugin/issues"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/BadgeUp/badgeup-php-client"
+		}
+	],
+	"require": {
+		"badgeup/badgeup-php-client": "dev-master",
+		"sentry/sentry": "^1.7"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~6.4.1"
+	},
+	"scripts": {
+		"test": "phpunit"
+	}
+}

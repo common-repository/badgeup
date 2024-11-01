@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.badgup_earned_achievements_widget .badgeup-achievements {
+  text-align: left;
+  font-size: 0; }
+  .badgup_earned_achievements_widget .badgeup-achievements .achievement {
+    margin: 2.5%;
+    display: inline-block;
+    vertical-align: top; }
+    .badgup_earned_achievements_widget .badgeup-achievements .achievement img {
+      display: block;
+      margin: auto; }
+  .badgup_earned_achievements_widget .badgeup-achievements h4 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 5px 0 0;
+    font-weight: bold; }
+
+.badgup_earned_achievements_widget .badgeup-credit-wrap {
+  text-align: center;
+  margin-top: 7px; }
+  .badgup_earned_achievements_widget .badgeup-credit-wrap a.badgeup-credit {
+    color: #999999 !important; }
+  .badgup_earned_achievements_widget .badgeup-credit-wrap a, .badgup_earned_achievements_widget .badgeup-credit-wrap a:focus, .badgup_earned_achievements_widget .badgeup-credit-wrap a:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none; }

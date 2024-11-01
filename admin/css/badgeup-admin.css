@@ -1,0 +1,98 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.settings_page_badgeup #badgeup_api_key_valid {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  vertical-align: top; }
+  .settings_page_badgeup #badgeup_api_key_valid.loading {
+    background: center/80% no-repeat url("../img/icons/preloader.gif"); }
+  .settings_page_badgeup #badgeup_api_key_valid .dashicons {
+    font-size: 25px;
+    text-align: left;
+    height: auto;
+    width: auto; }
+  .settings_page_badgeup #badgeup_api_key_valid .dashicons-no {
+    color: #d00; }
+  .settings_page_badgeup #badgeup_api_key_valid .dashicons-yes {
+    color: #0c5; }
+
+.settings_page_badgeup .badgeup-admin-header {
+  background: center/cover fixed url("../img/bg-pattern.svg");
+  margin-left: -20px;
+  overflow: hidden; }
+  .settings_page_badgeup .badgeup-admin-header .heading {
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 2px;
+    position: relative;
+    color: #ffffff; }
+    .settings_page_badgeup .badgeup-admin-header .heading > * {
+      position: relative;
+      z-index: 7; }
+  .settings_page_badgeup .badgeup-admin-header .logo {
+    float: right;
+    width: 200px;
+    border-radius: 5px;
+    display: block; }
+
+.settings_page_badgeup .nav-tab-wrapper {
+  padding: 0;
+  border: none;
+  padding-left: 20px; }
+  .settings_page_badgeup .nav-tab-wrapper .nav-tab {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 7px 20px 5px; }
+    .settings_page_badgeup .nav-tab-wrapper .nav-tab:first-of-type {
+      margin: 0; }
+    .settings_page_badgeup .nav-tab-wrapper .nav-tab:hover {
+      background: rgba(0, 0, 0, 0.25); }
+    .settings_page_badgeup .nav-tab-wrapper .nav-tab.nav-tab-active {
+      background: #f1f1f1;
+      color: #23282d;
+      font-weight: normal; }
+
+.settings_page_badgeup h2.badgeup-notices-magnet:first-of-type {
+  margin: 0;
+  padding: 0; }
+
+.settings_page_badgeup .admin-achievements-wrap h4 {
+  margin: 1.6em 0 1.6em; }
+
+.settings_page_badgeup .admin-achievements-wrap a.reload-achievements-cache {
+  margin: -5px 0;
+  float: right; }
+
+.settings_page_badgeup .achievement {
+  background: #fff;
+  padding: 1em;
+  margin: 1em auto;
+  border: 2px solid #ccc; }
+  .settings_page_badgeup .achievement > * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle; }
+  .settings_page_badgeup .achievement:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .settings_page_badgeup .achievement img {
+    width: 70px;
+    height: auto; }
+  .settings_page_badgeup .achievement .desc {
+    width: calc( 100% - 200px);
+    padding: 0 1em; }
+    .settings_page_badgeup .achievement .desc h3 {
+      margin: 0; }
+  .settings_page_badgeup .achievement .actions {
+    width: 120px; }

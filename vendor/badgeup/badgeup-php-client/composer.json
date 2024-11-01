@@ -1,0 +1,33 @@
+{
+    "name": "badgeup/badgeup-php-client",
+    "description": "Official BadgeUp PHP client",
+    "keywords": ["badgeup", "achievements", "saas"],
+    "homepage": "https://www.badgeup.io/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Herhold",
+            "email": "mark@badgeup.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BadgeUp\\": "src/BadgeUp/"
+        }
+    },
+    "support": {
+        "email": "support@badgeup.io",
+        "issues": "https://github.com/badgeup/badgeup-php-client/issues"
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.4.1"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
